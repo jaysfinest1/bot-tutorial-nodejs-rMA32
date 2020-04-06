@@ -92,7 +92,7 @@ function respond() {
   }
   else if(request.text && botRegexRules.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://docs.google.com/document/d/1u68PkaUxbSXabWhhcRb4Vyp4lcOZl4-K3QVVkHNQsSQ/edit");
+    postMessage("https://http://daddyleagues.com/sndv20/rules;
     this.res.end();
   } 
   else if(request.text && botRegexGTA.test(request.text)) {
